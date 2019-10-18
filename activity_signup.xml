@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    tools:visibility="PASSWORD">
+    tools:context=".SignupActivity"
+    >
 
     <EditText
         android:id="@+id/etSAID"
@@ -20,7 +20,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="PASSWORD" />
+         />
 
     <EditText
         android:id="@+id/etMobile"
@@ -35,7 +35,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="PASSWORD" />
+         />
 
     <TextView
         android:id="@+id/EMAIL2"
@@ -44,7 +44,7 @@
         android:text="EMAIL"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="380dp"
-        tools:visibility="PASSWORD" />
+         />
 
     <TextView
         android:id="@+id/NAME2"
@@ -53,7 +53,7 @@
         android:text="NAME"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="238dp"
-        tools:visibility="PASSWORD" />
+         />
 
     <TextView
         android:id="@+id/PASSWORD"
@@ -64,22 +64,22 @@
         tools:layout_editor_absoluteY="292dp" />
 
     <TextView
-        android:id="@+id/RE ENTER PASSWORD"
+        android:id="@+id/RE_ENTER_PASSWORD"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:text="CONFIRM PASSWORD"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="337dp"
-        tools:visibility="PASSWORD" />
+         />
 
     <TextView
-        android:id="@+id/SA ID"
+        android:id="@+id/SA_ID"
         android:layout_width="wrap_content"
         android:layout_height="15dp"
         android:text="SA ID"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="482dp"
-        tools:visibility="PASSWORD" />
+         />
 
     <EditText
         android:id="@+id/etPassword"
@@ -94,7 +94,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="PASSWORD" />
+         />
 
     <EditText
         android:id="@+id/etEmail"
@@ -109,7 +109,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="PASSWORD" />
+         />
 
     <EditText
         android:id="@+id/etName"
@@ -124,10 +124,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="PASSWORD" />
+         />
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/etPassword1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -138,7 +138,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteY="270dp"
-        tools:visibility="PASSWORD" />
+         />
 
     <Button
         android:id="@+id/btnLogin"
@@ -153,9 +153,9 @@
         app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword1"
         app:layout_constraintVertical_bias="0.715"
-        tools:visibility="PASSWORD" />
+         />
 
     <TextView
         android:id="@+id/MOBILE"
@@ -164,7 +164,7 @@
         android:text="MOBILE"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="425dp"
-        tools:visibility="PASSWORD" />
+         />
 
     <ImageView
         android:id="@+id/imageView4"
